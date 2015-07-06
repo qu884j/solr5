@@ -1,0 +1,35 @@
+INFO  - 2015-04-23 12:52:18.539; [   ] org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-04-23 12:52:18.887; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts at interval 0
+INFO  - 2015-04-23 12:52:19.073; [   ] org.eclipse.jetty.deploy.DeploymentManager; Deployable added: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts\solr-jetty-context.xml
+INFO  - 2015-04-23 12:52:19.330; [   ] org.eclipse.jetty.webapp.WebInfConfiguration; Extract jar:file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/server/webapps/solr.war!/ to C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr-webapp\webapp
+INFO  - 2015-04-23 12:55:42.726; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-04-23 12:55:43.829; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=1302743289@4da648f9
+INFO  - 2015-04-23 12:55:44.591; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-04-23 12:55:44.592; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-04-23 12:55:44.667; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\'
+INFO  - 2015-04-23 12:55:55.852; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\solr.xml
+INFO  - 2015-04-23 12:56:10.725; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-04-23 12:56:11.138; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 18546089
+INFO  - 2015-04-23 12:56:11.138; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\]
+INFO  - 2015-04-23 12:56:11.138; [   ] org.apache.solr.core.CoreContainer; loading shared library: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib
+WARN  - 2015-04-23 12:56:11.139; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib).
+INFO  - 2015-04-23 12:56:11.151; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 600000
+INFO  - 2015-04-23 12:56:11.153; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-04-23 12:56:11.156; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 60000
+INFO  - 2015-04-23 12:56:11.156; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-04-23 12:56:11.156; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnections to: 10000
+INFO  - 2015-04-23 12:56:11.156; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-04-23 12:56:11.157; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-04-23 12:56:11.157; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-04-23 12:56:11.157; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-04-23 12:56:11.157; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-04-23 12:56:11.157; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-04-23 12:56:19.766; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2015-04-23 12:56:19.771; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-04-23 12:56:19.773; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-04-23 12:56:19.776; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2015-04-23 12:56:21.442; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-04-23 12:56:23.009; [   ] org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2015-04-23 12:56:23.014; [   ] org.apache.solr.servlet.SolrDispatchFilter; user.dir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server
+INFO  - 2015-04-23 12:56:23.014; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-04-23 12:56:25.101; [   ] org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983

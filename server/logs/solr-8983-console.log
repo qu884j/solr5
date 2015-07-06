@@ -1,0 +1,768 @@
+0    [main] INFO  org.eclipse.jetty.server.Server  [   ] – jetty-8.1.10.v20130312
+32   [main] INFO  org.eclipse.jetty.deploy.providers.ScanningAppProvider  [   ] – Deployment monitor C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts at interval 0
+38   [main] INFO  org.eclipse.jetty.deploy.DeploymentManager  [   ] – Deployable added: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts\solr-jetty-context.xml
+135870 [main] INFO  org.eclipse.jetty.webapp.StandardDescriptorProcessor  [   ] – NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+135928 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – SolrDispatchFilter.init()WebAppClassLoader=1302743289@4da648f9
+135938 [main] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – JNDI not configured for solr (NoInitialContextEx)
+135938 [main] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – using system property solr.solr.home: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+135938 [main] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\'
+136082 [main] INFO  org.apache.solr.core.SolrXmlConfig  [   ] – Loading container configuration from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\solr.xml
+136154 [main] INFO  org.apache.solr.core.CoresLocator  [   ] – Config-defined core root directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+136172 [main] INFO  org.apache.solr.core.CoreContainer  [   ] – New CoreContainer 1770771393
+136172 [main] INFO  org.apache.solr.core.CoreContainer  [   ] – Loading cores into CoreContainer [instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\]
+136172 [main] INFO  org.apache.solr.core.CoreContainer  [   ] – loading shared library: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib
+136173 [main] WARN  org.apache.solr.core.SolrResourceLoader  [   ] – Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib).
+136184 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting socketTimeout to: 600000
+136184 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting urlScheme to: null
+136188 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting connTimeout to: 60000
+136188 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting maxConnectionsPerHost to: 20
+136188 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting maxConnections to: 10000
+136188 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting corePoolSize to: 0
+136188 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting maximumPoolSize to: 2147483647
+136189 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting maxThreadIdleTime to: 5
+136189 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting sizeOfQueue to: -1
+136189 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting fairnessPolicy to: false
+136189 [main] INFO  org.apache.solr.handler.component.HttpShardHandlerFactory  [   ] – Setting useRetries to: false
+137246 [main] INFO  org.apache.solr.update.UpdateShardHandler  [   ] – Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+137248 [main] INFO  org.apache.solr.logging.LogWatcher  [   ] – SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+137248 [main] INFO  org.apache.solr.logging.LogWatcher  [   ] – Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+137249 [main] INFO  org.apache.solr.core.CoreContainer  [   ] – Node Name: 
+137340 [main] INFO  org.apache.solr.core.CoresLocator  [   ] – Looking for core definitions underneath C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+137399 [main] INFO  org.apache.solr.core.SolrCore  [   ] – CORE DESCRIPTOR: {name=Books, config=solrconfig.xml, instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books, loadOnStartup=true, absoluteInstDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\, schema=schema.xml, transient=false, dataDir=data\}
+137400 [main] INFO  org.apache.solr.core.CoresLocator  [   ] – Found core Books in C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\
+137491 [main] INFO  org.apache.solr.core.CoresLocator  [   ] – Found 1 core definitions
+137492 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\'
+137561 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  [   ] – current version of requestparams : 0
+137568 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  [   ] – Adding specified lib dirs to ClassLoader
+137607 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+137608 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+137608 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+137608 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+137609 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+137609 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+137609 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+137609 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+137609 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+137610 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+137610 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+137610 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+137610 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+137611 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+137611 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+137611 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+137611 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+137621 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+137622 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+137622 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+137623 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+137623 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+137623 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+137623 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+137624 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+137624 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+137624 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+137624 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+137624 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+137625 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+137625 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+137625 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+137625 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+137627 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-cell-5.1.0.jar' to classloader
+137638 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+137639 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+137639 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+137639 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+137639 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+137640 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+137640 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+137640 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+137642 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-clustering-5.1.0.jar' to classloader
+137644 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+137644 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+137645 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-langid-5.1.0.jar' to classloader
+137655 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+137655 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+137656 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+137656 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+137658 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrResourceLoader  [   ] – Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-velocity-5.1.0.jar' to classloader
+222583 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrConfig  [   ] – Using Lucene MatchVersion: 5.0.0
+222679 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.Config  [   ] – Loaded SolrConfig: solrconfig.xml
+222718 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  [   ] – Reading Solr Schema from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\managed-schema
+222768 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  [   ] – [Books] Schema name=example-data-driven-schema
+223123 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.IndexSchema  [   ] – unique key field: id
+224108 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.FileExchangeRateProvider  [   ] – Reloading exchange rates from file currency.xml
+224146 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.schema.FileExchangeRateProvider  [   ] – Reloading exchange rates from file currency.xml
+224189 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  [   ] – Creating SolrCore 'Books' using configuration from instancedir C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\
+224190 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – solr.NRTCachingDirectoryFactory
+224197 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Opening new SolrCore at C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\, dataDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\
+224199 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.JmxMonitoredMap  [   ] – No JMX servers found, not exposing Solr information with JMX.
+224203 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+224203 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+224222 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – return new directory for C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data
+224224 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – New index directory detected: old=null new=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index/
+224227 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – return new directory for C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index
+224244 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – queryResponseWriter : 'velocity' created with startup=lazy 
+224247 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.response.XSLTResponseWriter  [   ] – xsltCacheLifetimeSeconds=5
+224322 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.processor.UpdateRequestProcessorChain  [   ] – creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+224377 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – no updateRequestProcessorChain defined as default, creating implicit default
+224398 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  [   ] – xsltCacheLifetimeSeconds=60
+224400 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  [   ] – xsltCacheLifetimeSeconds=60
+224401 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  [   ] – xsltCacheLifetimeSeconds=60
+224401 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.loader.XMLLoader  [   ] – xsltCacheLifetimeSeconds=60
+224420 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/update/extract' created with startup=lazy 
+224422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/analysis/field' created with startup=lazy 
+224422 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/analysis/document' created with startup=lazy 
+224423 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/spell' created with startup=lazy 
+224424 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/tvrh' created with startup=lazy 
+224424 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/terms' created with startup=lazy 
+224424 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.PluginBag  [   ] – requestHandler : '/elevate' created with startup=lazy 
+224424 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.RequestHandlers  [   ] – Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/export,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump
+224426 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+224431 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   ] – Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+224431 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.update.UpdateLog  [   ] – Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10
+224439 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – Hard AutoCommit: if uncommited for 15000ms; 
+224439 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – Soft AutoCommit: disabled
+224477 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+224477 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – newest commit generation = 1
+224485 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   ] – Opening Searcher@5fa6dd41[Books] main
+224490 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  [   ] – File-based storage initialized to use dir: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf
+224490 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  [   ] – Initializing RestManager with initArgs: {storageDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf}
+224496 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.ManagedResourceStorage  [   ] – Reading _rest_managed.json using file:dir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf
+224497 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.rest.RestManager  [   ] – Initializing 0 registered ManagedResources
+224501 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  [   ] – Initializing spell checkers
+224505 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.spelling.DirectSolrSpellChecker  [   ] – init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+224509 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  [   ] – No queryConverter defined, using default converter
+224537 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.component.QueryElevationComponent  [   ] – Loading QueryElevation from: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\elevate.xml
+224556 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.handler.ReplicationHandler  [   ] – Commits will be reserved for  10000
+224558 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@5fa6dd41[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+224558 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+224559 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  [   ] – Loading spell index for spellchecker: default
+224559 [searcherExecutor-6-thread-1] INFO  org.apache.solr.handler.component.SpellCheckComponent  [   ] – Loading spell index for spellchecker: wordbreak
+224560 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@5fa6dd41[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+224560 [coreLoadExecutor-5-thread-1] INFO  org.apache.solr.core.CoreContainer  [   ] – registering core: Books
+224561 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – user.dir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server
+224561 [main] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – SolrDispatchFilter.init() done
+224584 [main] INFO  org.eclipse.jetty.server.AbstractConnector  [   ] – Started SocketConnector@0.0.0.0:8983
+291970 [qtp2075530176-17] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435933009318&wt=json} status=0 QTime=6 
+292015 [qtp2075530176-17] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/info/system params={_=1435933009368&wt=json} status=0 QTime=2 
+417900 [qtp2075530176-19] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.menu-top.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.menu-top.html]
+417901 [qtp2075530176-20] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.menu-bottom.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.menu-bottom.html]
+417903 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1435933135230&contentType=text/html;charset%3Dutf-8} status=404 QTime=5 
+417903 [qtp2075530176-20] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1435933135231&contentType=text/html;charset%3Dutf-8} status=404 QTime=3 
+418021 [qtp2075530176-21] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/luke params={numTerms=0&_=1435933135299&show=index&wt=json} status=0 QTime=1 
+418023 [qtp2075530176-20] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/replication params={command=details&_=1435933135301&wt=json} status=0 QTime=3 
+418023 [qtp2075530176-16] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.html]
+418024 [qtp2075530176-16] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435933135303} status=404 QTime=2 
+418023 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/system params={_=1435933135302&wt=json} status=0 QTime=1 
+418024 [qtp2075530176-18] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/ping params={action=status&_=1435933135304&wt=json} status=503 QTime=2 
+422920 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={_=1435933140248&wt=json} status=0 QTime=1 
+425013 [qtp2075530176-18] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/luke params={numTerms=0&_=1435933142343&show=index&wt=json} status=0 QTime=1 
+425015 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/replication params={command=details&_=1435933142346&wt=json} status=0 QTime=1 
+425025 [qtp2075530176-16] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/system params={_=1435933142347&wt=json} status=0 QTime=2 
+425027 [qtp2075530176-21] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.html]
+425027 [qtp2075530176-21] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435933142348} status=404 QTime=0 
+425029 [qtp2075530176-20] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/ping params={action=status&_=1435933142349&wt=json} status=503 QTime=0 
+426052 [qtp2075530176-18] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1435933143404&wt=json} status=0 QTime=2 
+1159697 [qtp2075530176-14] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 16
+1159698 [qtp2075530176-14] ERROR org.apache.solr.core.SolrCore  [   Books] – org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [16]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:480)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:425)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1182938 [qtp2075530176-14] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 1
+1182939 [qtp2075530176-14] ERROR org.apache.solr.core.SolrCore  [   Books] – org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [16]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:480)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:425)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1195970 [qtp2075530176-14] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 6
+1195972 [qtp2075530176-14] ERROR org.apache.solr.core.SolrCore  [   Books] – org.noggit.JSONParser$ParseException: JSON Parse Error: char=},position=255 BEFORE=': "technology", "inStock" : true, "price" : 500, }' AFTER=',"boost":1.0,"overwrite":true,"commitWi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.handleNonDoubleQuoteString(JSONParser.java:712)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:964)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1195973 [qtp2075530176-14] ERROR org.apache.solr.servlet.SolrDispatchFilter  [   Books] – null:org.noggit.JSONParser$ParseException: JSON Parse Error: char=},position=255 BEFORE=': "technology", "inStock" : true, "price" : 500, }' AFTER=',"boost":1.0,"overwrite":true,"commitWi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.handleNonDoubleQuoteString(JSONParser.java:712)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:964)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1199527 [qtp2075530176-17] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435933916882&wt=json} status=0 QTime=0 
+1199551 [qtp2075530176-17] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/info/system params={_=1435933916904&wt=json} status=0 QTime=2 
+1209959 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 2
+1209961 [qtp2075530176-15] ERROR org.apache.solr.core.SolrCore  [   Books] – org.noggit.JSONParser$ParseException: JSON Parse Error: char=},position=255 BEFORE=': "technology", "inStock" : true, "price" : 500, }' AFTER=',"boost":1.0,"overwrite":true,"commitWi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.handleNonDoubleQuoteString(JSONParser.java:712)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:964)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1209963 [qtp2075530176-15] ERROR org.apache.solr.servlet.SolrDispatchFilter  [   Books] – null:org.noggit.JSONParser$ParseException: JSON Parse Error: char=},position=255 BEFORE=': "technology", "inStock" : true, "price" : 500, }' AFTER=',"boost":1.0,"overwrite":true,"commitWi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.handleNonDoubleQuoteString(JSONParser.java:712)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:964)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1235177 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 1
+1235178 [qtp2075530176-15] ERROR org.apache.solr.core.SolrCore  [   Books] – org.apache.solr.common.SolrException: Expected: OBJECT_START but got ARRAY_START at [16]
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertEvent(JsonLoader.java:480)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.assertNextEvent(JsonLoader.java:474)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:425)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1246620 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[1 (1505685892142989312)]} 0 67
+1247622 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1247668 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@4501c831[Books] main
+1247669 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1247670 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@4501c831[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.1.0):C1)))}
+1247670 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1247670 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@4501c831[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.1.0):C1)))}
+1261624 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+1261831 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+1261832 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – newest commit generation = 2
+1261836 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1264066 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 2
+1264068 [qtp2075530176-15] ERROR org.apache.solr.core.SolrCore  [   Books] – org.noggit.JSONParser$ParseException: JSON Parse Error: char=},position=254 BEFORE='" : "technology", "inStock" : true, "price" : 500, }' AFTER=',"boost":1.0,"overwrite":true,"commitWi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.handleNonDoubleQuoteString(JSONParser.java:712)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:964)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1264069 [qtp2075530176-15] ERROR org.apache.solr.servlet.SolrDispatchFilter  [   Books] – null:org.noggit.JSONParser$ParseException: JSON Parse Error: char=},position=254 BEFORE='" : "technology", "inStock" : true, "price" : 500, }' AFTER=',"boost":1.0,"overwrite":true,"commitWi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.handleNonDoubleQuoteString(JSONParser.java:712)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:964)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1276884 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {} 0 1
+1276885 [qtp2075530176-15] ERROR org.apache.solr.core.SolrCore  [   Books] – org.noggit.JSONParser$ParseException: Expected ',' or '}': char=b,position=65 BEFORE='":{ "doc": { "id" : "1", "cat" : "technology },"b' AFTER='oost":1.0,"overwrite":true,"commitWithi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:958)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1276887 [qtp2075530176-15] ERROR org.apache.solr.servlet.SolrDispatchFilter  [   Books] – null:org.noggit.JSONParser$ParseException: Expected ',' or '}': char=b,position=65 BEFORE='":{ "doc": { "id" : "1", "cat" : "technology },"b' AFTER='oost":1.0,"overwrite":true,"commitWithi'
+	at org.noggit.JSONParser.err(JSONParser.java:356)
+	at org.noggit.JSONParser.nextEvent(JSONParser.java:958)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseDoc(JsonLoader.java:493)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.parseAdd(JsonLoader.java:426)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.processUpdate(JsonLoader.java:140)
+	at org.apache.solr.handler.loader.JsonLoader$SingleThreadedJsonLoader.load(JsonLoader.java:110)
+	at org.apache.solr.handler.loader.JsonLoader.load(JsonLoader.java:73)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:103)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:1984)
+	at org.apache.solr.servlet.SolrDispatchFilter.execute(SolrDispatchFilter.java:829)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:446)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:220)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1419)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:455)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:137)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:557)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:231)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1075)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:384)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1009)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:255)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:154)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:368)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:489)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handleRequest(BlockingHttpConnection.java:53)
+	at org.eclipse.jetty.server.AbstractHttpConnection.content(AbstractHttpConnection.java:953)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.content(AbstractHttpConnection.java:1014)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:861)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:240)
+	at org.eclipse.jetty.server.BlockingHttpConnection.handle(BlockingHttpConnection.java:72)
+	at org.eclipse.jetty.server.bio.SocketConnector$ConnectorEndPoint.run(SocketConnector.java:264)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Unknown Source)
+
+1284601 [qtp2075530176-15] INFO  org.apache.solr.schema.IndexSchema  [   Books] – Upgraded to managed schema at C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\managed-schema
+1284674 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[1 (1505685931929108480)]} 0 175
+1285674 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1285703 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@18e0a18e[Books] main
+1285704 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1285704 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@18e0a18e[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.1.0):C1)))}
+1285705 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1285705 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@18e0a18e[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_1(5.1.0):C1)))}
+1299677 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+1300018 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_2,generation=2}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+1300019 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – newest commit generation = 3
+1300031 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1304287 [qtp2075530176-15] INFO  org.apache.solr.schema.IndexSchema  [   Books] – Upgraded to managed schema at C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\managed-schema
+1304342 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[1 (1505685952602832896)]} 0 127
+1305343 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1305352 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@462cd2d6[Books] main
+1305352 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1305352 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@462cd2d6[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(5.1.0):C1)))}
+1305353 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1305353 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@462cd2d6[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(5.1.0):C1)))}
+1319345 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+1319777 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_3,generation=3}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+1319777 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – newest commit generation = 4
+1319784 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1323607 [qtp2075530176-15] INFO  org.apache.solr.schema.IndexSchema  [   Books] – Upgraded to managed schema at C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\managed-schema
+1323679 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[1 (1505685972872855552)]} 0 133
+1324679 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1324692 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@7c0a7416[Books] main
+1324693 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1324694 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@7c0a7416[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.1.0):C1)))}
+1324694 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1324695 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@7c0a7416[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.1.0):C1)))}
+1338682 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+1338921 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[2 (1505685988983177216)]} 0 12
+1338927 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+1338927 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – newest commit generation = 5
+1338939 [commitScheduler-8-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@13f4c52d[Books] realtime
+1338940 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1339922 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1339923 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@7a117b86[Books] main
+1339924 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1339924 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@7a117b86[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.1.0):C1) Uninverting(_4(5.1.0):C1)))}
+1339924 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1339925 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@7a117b86[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.1.0):C1) Uninverting(_4(5.1.0):C1)))}
+1347525 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[3 (1505685998007222272)]} 0 8
+1348536 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1348544 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@6dc6e916[Books] main
+1348545 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1348547 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@6dc6e916[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.1.0):C1) Uninverting(_4(5.1.0):C1) Uninverting(_5(5.1.0):C1)))}
+1348548 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1348548 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@6dc6e916[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_3(5.1.0):C1) Uninverting(_4(5.1.0):C1) Uninverting(_5(5.1.0):C1)))}
+1353924 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+1354441 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+1354441 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – newest commit generation = 6
+1354444 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1356063 [qtp2075530176-15] INFO  org.apache.solr.update.processor.LogUpdateProcessor  [   Books] – [Books] webapp=/solr path=/update params={wt=json} {add=[1 (1505686006958915584)]} 0 10
+1357064 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=true,prepareCommit=false}
+1357086 [commitScheduler-9-thread-1] INFO  org.apache.solr.search.SolrIndexSearcher  [   Books] – Opening Searcher@544a6244[Books] main
+1357089 [commitScheduler-9-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1357090 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener sending requests to Searcher@544a6244[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.1.0):C1) Uninverting(_5(5.1.0):C1) Uninverting(_6(5.1.0):C1)))}
+1357091 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – QuerySenderListener done.
+1357091 [searcherExecutor-6-thread-1] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Registered new searcher Searcher@544a6244[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_4(5.1.0):C1) Uninverting(_5(5.1.0):C1) Uninverting(_6(5.1.0):C1)))}
+1360683 [qtp2075530176-15] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.menu-top.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.menu-top.html]
+1360685 [qtp2075530176-15] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1435934078028&contentType=text/html;charset%3Dutf-8} status=404 QTime=3 
+1360688 [qtp2075530176-14] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.menu-bottom.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.menu-bottom.html]
+1360688 [qtp2075530176-14] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1435934078029&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+1360709 [qtp2075530176-16] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/luke params={numTerms=0&_=1435934078049&show=index&wt=json} status=0 QTime=1 
+1360714 [qtp2075530176-14] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/replication params={command=details&_=1435934078054&wt=json} status=0 QTime=5 
+1360715 [qtp2075530176-15] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/system params={_=1435934078055&wt=json} status=0 QTime=1 
+1360717 [qtp2075530176-16] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.html]
+1360717 [qtp2075530176-16] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435934078059} status=404 QTime=1 
+1360719 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/ping params={action=status&_=1435934078060&wt=json} status=503 QTime=0 
+1363121 [qtp2075530176-15] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/luke params={_=1435934080453&show=schema&wt=json} status=0 QTime=4 
+1364764 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1435934082109&wt=json} status=0 QTime=1 
+1367849 [qtp2075530176-19] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={_=1435934085182&wt=json} status=0 QTime=11 
+1367879 [qtp2075530176-19] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={_=1435934085211&wt=json} status=0 QTime=4 
+1371066 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+1371363 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@55335866; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+1371364 [commitScheduler-8-thread-1] INFO  org.apache.solr.core.SolrCore  [   Books] – newest commit generation = 7
+1371373 [commitScheduler-8-thread-1] INFO  org.apache.solr.update.UpdateHandler  [   Books] – end_commit_flush
+1374420 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/info/properties params={_=1435934091760&wt=json} status=0 QTime=1 
+1375528 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/info/logging params={_=1435934092873&since=0&wt=json} status=0 QTime=1 
+1377635 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/info/logging params={_=1435934094959&since=0&wt=json} status=0 QTime=0 
+1382125 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={_=1435934099392&wt=json} status=0 QTime=5 
+1382146 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={_=1435934099487&wt=json} status=0 QTime=4 
+1385727 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/info/properties params={_=1435934103072&wt=json} status=0 QTime=0 
+1386829 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={_=1435934104136&wt=json} status=0 QTime=2 
+1386843 [qtp2075530176-15] INFO  org.apache.solr.servlet.SolrDispatchFilter  [   ] – [admin] webapp=null path=/admin/cores params={_=1435934104182&wt=json} status=0 QTime=2 
+1390240 [qtp2075530176-15] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/luke params={numTerms=0&_=1435934107590&show=index&wt=json} status=0 QTime=1 
+1390256 [qtp2075530176-19] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/system params={_=1435934107594&wt=json} status=0 QTime=3 
+1390256 [qtp2075530176-16] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/replication params={command=details&_=1435934107593&wt=json} status=0 QTime=3 
+1390257 [qtp2075530176-14] ERROR org.apache.solr.handler.admin.ShowFileRequestHandler  [   Books] – Can not find: admin-extra.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.html]
+1390257 [qtp2075530176-14] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435934107595} status=404 QTime=0 
+1390260 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/ping params={action=status&_=1435934107596&wt=json} status=503 QTime=0 
+1393116 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/luke params={_=1435934110463&show=schema&wt=json} status=0 QTime=5 
+1394793 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&_=1435934112144&wt=json} status=0 QTime=1 
+1397297 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/file params={_=1435934114647&wt=json} status=0 QTime=2 
+1400308 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/ping params={ts=1435934117606&_=1435934117607&wt=json} hits=0 status=0 QTime=49 
+1400309 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/admin/ping params={ts=1435934117606&_=1435934117607&wt=json} status=0 QTime=49 
+1406173 [qtp2075530176-17] INFO  org.apache.solr.core.SolrCore.Request  [   Books] – [Books] webapp=/solr path=/select params={spellcheck=true&indent=true&q=*:*&_=1435934123519&wt=json} hits=3 status=0 QTime=2 
+1770900 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  [   ] – Graceful shutdown SocketConnector@0.0.0.0:8983
+1770901 [ShutdownMonitor] INFO  org.eclipse.jetty.server.Server  [   ] – Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/server/solr-webapp/webapp/},C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server/webapps/solr.war
+1771901 [ShutdownMonitor] INFO  org.apache.solr.core.CoreContainer  [   ] – Shutting down CoreContainer instance=1770771393
+1771902 [ShutdownMonitor] INFO  org.apache.solr.core.SolrCore  [   ] – [Books]  CLOSING SolrCore org.apache.solr.core.SolrCore@12d574fe
+1771903 [ShutdownMonitor] INFO  org.apache.solr.update.UpdateHandler  [   ] – closing DirectUpdateHandler2{commits=13,autocommit maxTime=15000ms,autocommits=6,soft autocommits=7,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=7,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=1095,transaction_logs_total_number=6}
+1771903 [ShutdownMonitor] INFO  org.apache.solr.update.SolrCoreState  [   ] – Closing SolrCoreState
+1771903 [ShutdownMonitor] INFO  org.apache.solr.update.DefaultSolrCoreState  [   ] – SolrCoreState ref count has reached 0 - closing IndexWriter
+1771903 [ShutdownMonitor] INFO  org.apache.solr.update.DefaultSolrCoreState  [   ] – closing IndexWriter with IndexWriterCloser
+1771907 [ShutdownMonitor] INFO  org.apache.solr.core.SolrCore  [   ] – [Books] Closing main searcher on request.
+1771908 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+1771909 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – looking to close C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index [CachedDir<<refCount=0;path=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index;done=false>>]
+1771909 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – Closing directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index
+1771909 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – looking to close C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data [CachedDir<<refCount=0;path=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data;done=false>>]
+1771909 [ShutdownMonitor] INFO  org.apache.solr.core.CachingDirectoryFactory  [   ] – Closing directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data
+1771911 [ShutdownMonitor] INFO  org.eclipse.jetty.server.handler.ContextHandler  [   ] – stopped o.e.j.w.WebAppContext{/solr,file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/server/solr-webapp/webapp/},C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server/webapps/solr.war
+1772650 [ShutdownMonitor] WARN  org.eclipse.jetty.util.thread.QueuedThreadPool  [   ] – 6 threads could not be stopped

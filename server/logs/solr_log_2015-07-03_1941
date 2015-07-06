@@ -1,0 +1,170 @@
+INFO  - 2015-07-01 13:06:27.117; [   ] org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-07-01 13:06:27.269; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts at interval 0
+INFO  - 2015-07-01 13:06:27.290; [   ] org.eclipse.jetty.deploy.DeploymentManager; Deployable added: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts\solr-jetty-context.xml
+INFO  - 2015-07-01 13:06:30.982; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-07-01 13:06:31.178; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=857344131@331a0883
+INFO  - 2015-07-01 13:06:31.286; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-07-01 13:06:31.287; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 13:06:31.294; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\'
+INFO  - 2015-07-01 13:06:31.477; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\solr.xml
+INFO  - 2015-07-01 13:06:32.056; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 13:06:32.134; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 1812444118
+INFO  - 2015-07-01 13:06:32.135; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\]
+INFO  - 2015-07-01 13:06:32.135; [   ] org.apache.solr.core.CoreContainer; loading shared library: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib
+WARN  - 2015-07-01 13:06:32.136; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib).
+INFO  - 2015-07-01 13:06:32.166; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 600000
+INFO  - 2015-07-01 13:06:32.166; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-07-01 13:06:32.170; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 60000
+INFO  - 2015-07-01 13:06:32.170; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-01 13:06:32.170; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnections to: 10000
+INFO  - 2015-07-01 13:06:32.171; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-01 13:06:32.171; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-01 13:06:32.171; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-01 13:06:32.171; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-01 13:06:32.171; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-01 13:06:32.171; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-07-01 13:06:32.510; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2015-07-01 13:06:32.512; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-01 13:06:32.513; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-01 13:06:32.514; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2015-07-01 13:06:32.594; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 13:06:32.687; [   ] org.apache.solr.core.CorePropertiesLocator; Found 0 core definitions
+INFO  - 2015-07-01 13:06:32.688; [   ] org.apache.solr.servlet.SolrDispatchFilter; user.dir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server
+INFO  - 2015-07-01 13:06:32.689; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init() done
+INFO  - 2015-07-01 13:06:32.758; [   ] org.eclipse.jetty.server.AbstractConnector; Started SocketConnector@0.0.0.0:8983
+INFO  - 2015-07-01 13:07:18.550; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435756038361&wt=json} status=0 QTime=193 
+INFO  - 2015-07-01 13:07:18.939; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1435756038580&wt=json} status=0 QTime=363 
+INFO  - 2015-07-01 13:07:29.014; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=1 
+INFO  - 2015-07-01 13:07:29.255; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=0 
+INFO  - 2015-07-01 13:07:29.264; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={action=STATUS&core=Books&wt=json} status=0 QTime=0 
+INFO  - 2015-07-01 13:07:29.275; [   ] org.apache.solr.handler.admin.CoreAdminHandler; core create command action=CREATE&wt=json&instanceDir=Books&name=Books
+INFO  - 2015-07-01 13:07:29.399; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=Books, config=solrconfig.xml, instanceDir=Books, loadOnStartup=true, absoluteInstDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2015-07-01 13:07:29.400; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\'
+INFO  - 2015-07-01 13:07:29.467; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : 0
+INFO  - 2015-07-01 13:07:29.475; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-07-01 13:07:29.477; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-07-01 13:07:29.478; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-07-01 13:07:29.478; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.478; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 13:07:29.478; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 13:07:29.479; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.479; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.479; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 13:07:29.479; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-07-01 13:07:29.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 13:07:29.480; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.481; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-07-01 13:07:29.481; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-07-01 13:07:29.481; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 13:07:29.481; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-07-01 13:07:29.481; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-07-01 13:07:29.482; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-07-01 13:07:29.482; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-07-01 13:07:29.482; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.482; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.483; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.483; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.483; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.484; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.484; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-07-01 13:07:29.484; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-07-01 13:07:29.484; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.485; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.485; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-07-01 13:07:29.485; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-07-01 13:07:29.487; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-cell-5.1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.488; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-07-01 13:07:29.489; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 13:07:29.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 13:07:29.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.490; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-07-01 13:07:29.491; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.492; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-clustering-5.1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.493; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-07-01 13:07:29.494; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-langid-5.1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-07-01 13:07:29.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-07-01 13:07:29.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-07-01 13:07:29.496; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.498; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-velocity-5.1.0.jar' to classloader
+INFO  - 2015-07-01 13:07:29.641; [   ] org.apache.solr.core.SolrConfig; Using Lucene MatchVersion: 5.0.0
+INFO  - 2015-07-01 13:07:29.794; [   ] org.apache.solr.core.SolrConfig; Loaded SolrConfig: solrconfig.xml
+INFO  - 2015-07-01 13:07:29.870; [   ] org.apache.solr.schema.IndexSchema; Reading Solr Schema from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\managed-schema
+INFO  - 2015-07-01 13:07:29.955; [   ] org.apache.solr.schema.IndexSchema; [Books] Schema name=example-data-driven-schema
+INFO  - 2015-07-01 13:07:34.228; [   ] org.apache.solr.schema.IndexSchema; unique key field: id
+INFO  - 2015-07-01 13:07:34.588; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-07-01 13:07:34.593; [   ] org.apache.solr.schema.FileExchangeRateProvider; Reloading exchange rates from file currency.xml
+INFO  - 2015-07-01 13:07:34.629; [   ] org.apache.solr.core.CoreContainer; Creating SolrCore 'Books' using configuration from instancedir C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\
+INFO  - 2015-07-01 13:07:34.929; [   ] org.apache.solr.core.SolrCore; solr.NRTCachingDirectoryFactory
+INFO  - 2015-07-01 13:07:34.937; [   ] org.apache.solr.core.SolrCore; [Books] Opening new SolrCore at C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\, dataDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\
+INFO  - 2015-07-01 13:07:35.060; [   ] org.apache.solr.core.JmxMonitoredMap; No JMX servers found, not exposing Solr information with JMX.
+INFO  - 2015-07-01 13:07:35.063; [   ] org.apache.solr.core.SolrCore; [Books] Added SolrEventListener for newSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2015-07-01 13:07:35.064; [   ] org.apache.solr.core.SolrCore; [Books] Added SolrEventListener for firstSearcher: org.apache.solr.core.QuerySenderListener{queries=[]}
+INFO  - 2015-07-01 13:07:35.306; [   ] org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data
+INFO  - 2015-07-01 13:07:35.445; [   ] org.apache.solr.core.SolrCore; New index directory detected: old=null new=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index/
+WARN  - 2015-07-01 13:07:35.448; [   ] org.apache.solr.core.SolrCore; [Books] Solr index directory 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index' doesn't exist. Creating new index...
+INFO  - 2015-07-01 13:07:35.474; [   ] org.apache.solr.core.CachingDirectoryFactory; return new directory for C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index
+INFO  - 2015-07-01 13:07:36.086; [   ] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onCommit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@76833c98; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-07-01 13:07:36.086; [   ] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-01 13:07:36.091; [   ] org.apache.solr.core.PluginBag; queryResponseWriter : 'velocity' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.093; [   ] org.apache.solr.response.XSLTResponseWriter; xsltCacheLifetimeSeconds=5
+INFO  - 2015-07-01 13:07:36.202; [   ] org.apache.solr.update.processor.UpdateRequestProcessorChain; creating updateRequestProcessorChain "add-unknown-fields-to-the-schema"
+INFO  - 2015-07-01 13:07:36.344; [   ] org.apache.solr.core.SolrCore; no updateRequestProcessorChain defined as default, creating implicit default
+INFO  - 2015-07-01 13:07:36.543; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-01 13:07:36.546; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-01 13:07:36.547; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-01 13:07:36.548; [   ] org.apache.solr.handler.loader.XMLLoader; xsltCacheLifetimeSeconds=60
+INFO  - 2015-07-01 13:07:36.586; [   ] org.apache.solr.core.PluginBag; requestHandler : '/update/extract' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.589; [   ] org.apache.solr.core.PluginBag; requestHandler : '/analysis/field' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.590; [   ] org.apache.solr.core.PluginBag; requestHandler : '/analysis/document' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.594; [   ] org.apache.solr.core.PluginBag; requestHandler : '/spell' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.595; [   ] org.apache.solr.core.PluginBag; requestHandler : '/tvrh' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.595; [   ] org.apache.solr.core.PluginBag; requestHandler : '/terms' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.595; [   ] org.apache.solr.core.PluginBag; requestHandler : '/elevate' created with startup=lazy 
+INFO  - 2015-07-01 13:07:36.595; [   ] org.apache.solr.core.RequestHandlers; Registered paths: /admin/logging,/admin/plugins,/admin/system,/admin/segments,/admin/file,/admin/luke,/update,/terms,/stream,/admin/threads,/schema,/query,/replication,/analysis/field,/browse,/admin/ping,/update/json/docs,/analysis/document,/select,/admin/mbeans,/update/csv,/elevate,/get,/update/json,/export,/update/extract,/admin/properties,/tvrh,/spell,/config,/debug/dump
+INFO  - 2015-07-01 13:07:36.599; [   ] org.apache.solr.core.SolrCore; Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+INFO  - 2015-07-01 13:07:36.631; [   ] org.apache.solr.update.UpdateHandler; Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+INFO  - 2015-07-01 13:07:36.631; [   ] org.apache.solr.update.UpdateLog; Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10
+INFO  - 2015-07-01 13:07:36.883; [   ] org.apache.solr.update.CommitTracker; Hard AutoCommit: if uncommited for 15000ms; 
+INFO  - 2015-07-01 13:07:36.884; [   ] org.apache.solr.update.CommitTracker; Soft AutoCommit: disabled
+INFO  - 2015-07-01 13:07:36.890; [   ] org.apache.solr.core.SolrDeletionPolicy; SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\data\index lockFactory=org.apache.lucene.store.NativeFSLockFactory@76833c98; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+INFO  - 2015-07-01 13:07:36.890; [   ] org.apache.solr.core.SolrDeletionPolicy; newest commit generation = 1
+INFO  - 2015-07-01 13:07:36.898; [   ] org.apache.solr.search.SolrIndexSearcher; Opening Searcher@257dc3bb[Books] main
+INFO  - 2015-07-01 13:07:36.902; [   ] org.apache.solr.rest.ManagedResourceStorage$FileStorageIO; File-based storage initialized to use dir: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf
+INFO  - 2015-07-01 13:07:36.902; [   ] org.apache.solr.rest.RestManager; Initializing RestManager with initArgs: {storageDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf}
+INFO  - 2015-07-01 13:07:36.909; [   ] org.apache.solr.rest.ManagedResourceStorage; Reading _rest_managed.json using file:dir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf
+INFO  - 2015-07-01 13:07:36.909; [   ] org.apache.solr.rest.RestManager; Initializing 0 registered ManagedResources
+INFO  - 2015-07-01 13:07:36.914; [   ] org.apache.solr.handler.component.SpellCheckComponent; Initializing spell checkers
+INFO  - 2015-07-01 13:07:36.918; [   ] org.apache.solr.spelling.DirectSolrSpellChecker; init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+INFO  - 2015-07-01 13:07:36.923; [   ] org.apache.solr.handler.component.SpellCheckComponent; No queryConverter defined, using default converter
+INFO  - 2015-07-01 13:07:36.925; [   ] org.apache.solr.handler.component.QueryElevationComponent; Loading QueryElevation from: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\elevate.xml
+INFO  - 2015-07-01 13:07:36.938; [   ] org.apache.solr.handler.ReplicationHandler; Commits will be reserved for  10000
+INFO  - 2015-07-01 13:07:36.939; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener sending requests to Searcher@257dc3bb[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-07-01 13:07:36.940; [   ] org.apache.solr.core.QuerySenderListener; QuerySenderListener done.
+INFO  - 2015-07-01 13:07:36.940; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: default
+INFO  - 2015-07-01 13:07:36.940; [   ] org.apache.solr.handler.component.SpellCheckComponent$SpellCheckerListener; Loading spell index for spellchecker: wordbreak
+INFO  - 2015-07-01 13:07:36.940; [   ] org.apache.solr.core.SolrCore; [Books] Registered new searcher Searcher@257dc3bb[Books] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+INFO  - 2015-07-01 13:07:36.941; [   ] org.apache.solr.core.CoreContainer; registering core: Books
+INFO  - 2015-07-01 13:07:37.009; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={instanceDir=Books&name=Books&action=CREATE&wt=json} status=0 QTime=7734 
+INFO  - 2015-07-01 13:08:05.240; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/cores params={indexInfo=false&_=1435756085234&wt=json} status=0 QTime=1 
+INFO  - 2015-07-01 13:08:05.545; [   ] org.apache.solr.servlet.SolrDispatchFilter; [admin] webapp=null path=/admin/info/system params={_=1435756085531&wt=json} status=0 QTime=1 
+ERROR - 2015-07-01 13:08:08.612; [   Books] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-top.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.menu-top.html]
+INFO  - 2015-07-01 13:08:08.614; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&_=1435756088504&contentType=text/html;charset%3Dutf-8} status=404 QTime=2 
+ERROR - 2015-07-01 13:08:08.617; [   Books] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.menu-bottom.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.menu-bottom.html]
+INFO  - 2015-07-01 13:08:08.618; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&_=1435756088504&contentType=text/html;charset%3Dutf-8} status=404 QTime=1 
+ERROR - 2015-07-01 13:08:08.829; [   Books] org.apache.solr.handler.admin.ShowFileRequestHandler; Can not find: admin-extra.html [C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\Books\conf\admin-extra.html]
+INFO  - 2015-07-01 13:08:08.830; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1435756088719} status=404 QTime=1 
+INFO  - 2015-07-01 13:08:08.832; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/replication params={command=details&_=1435756088718&wt=json} status=0 QTime=3 
+INFO  - 2015-07-01 13:08:08.833; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/admin/luke params={numTerms=0&_=1435756088715&show=index&wt=json} status=0 QTime=4 
+INFO  - 2015-07-01 13:08:08.834; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/admin/system params={_=1435756088719&wt=json} status=0 QTime=1 
+INFO  - 2015-07-01 13:08:08.836; [   Books] org.apache.solr.core.SolrCore; [Books] webapp=/solr path=/admin/ping params={action=status&_=1435756088720&wt=json} status=503 QTime=1 
+INFO  - 2015-07-01 13:30:27.441; [   ] org.eclipse.jetty.server.Server; Graceful shutdown SocketConnector@0.0.0.0:8983
+INFO  - 2015-07-01 13:30:27.444; [   ] org.eclipse.jetty.server.Server; Graceful shutdown o.e.j.w.WebAppContext{/solr,file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/server/solr-webapp/webapp/},C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server/webapps/solr.war

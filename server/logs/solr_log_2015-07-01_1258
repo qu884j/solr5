@@ -1,0 +1,286 @@
+INFO  - 2015-07-01 07:21:56.954; [   ] org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-07-01 07:21:56.968; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts at interval 0
+INFO  - 2015-07-01 07:21:56.972; [   ] org.eclipse.jetty.deploy.DeploymentManager; Deployable added: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts\solr-jetty-context.xml
+INFO  - 2015-07-01 07:23:59.929; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-07-01 07:23:59.985; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=396010822@179aa546
+INFO  - 2015-07-01 07:23:59.998; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-07-01 07:23:59.999; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 07:23:59.999; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\'
+INFO  - 2015-07-01 07:24:00.121; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\solr.xml
+INFO  - 2015-07-01 07:24:00.185; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 07:24:00.199; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 746172714
+INFO  - 2015-07-01 07:24:00.199; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\]
+INFO  - 2015-07-01 07:24:00.200; [   ] org.apache.solr.core.CoreContainer; loading shared library: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib
+WARN  - 2015-07-01 07:24:00.200; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib).
+INFO  - 2015-07-01 07:24:00.209; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 600000
+INFO  - 2015-07-01 07:24:00.209; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-07-01 07:24:00.212; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 60000
+INFO  - 2015-07-01 07:24:00.212; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-01 07:24:00.212; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnections to: 10000
+INFO  - 2015-07-01 07:24:00.213; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-01 07:24:00.213; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-01 07:24:00.213; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-01 07:24:00.213; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-01 07:24:00.213; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-01 07:24:00.213; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-07-01 07:24:01.070; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2015-07-01 07:24:01.072; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-01 07:24:01.072; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-01 07:24:01.073; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2015-07-01 07:24:01.282; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 07:24:01.389; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=test, config=solrconfig.xml, instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test, loadOnStartup=true, absoluteInstDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2015-07-01 07:24:01.389; [   ] org.apache.solr.core.CorePropertiesLocator; Found core test in C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test\
+INFO  - 2015-07-01 07:24:01.395; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=test1, config=solrconfig.xml, instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1, loadOnStartup=true, absoluteInstDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2015-07-01 07:24:01.395; [   ] org.apache.solr.core.CorePropertiesLocator; Found core test1 in C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1\
+INFO  - 2015-07-01 07:24:01.396; [   ] org.apache.solr.core.CorePropertiesLocator; Found 2 core definitions
+INFO  - 2015-07-01 07:24:01.398; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test\'
+INFO  - 2015-07-01 07:24:01.398; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1\'
+INFO  - 2015-07-01 07:24:01.502; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : 0
+INFO  - 2015-07-01 07:24:01.507; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-07-01 07:24:01.518; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : 0
+INFO  - 2015-07-01 07:24:01.522; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:01.549; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:01.550; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.551; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.552; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.553; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.554; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.555; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.555; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.555; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.555; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.563; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-07-01 07:24:01.563; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-07-01 07:24:01.572; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-cell-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.572; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-cell-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.582; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.583; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:01.583; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:01.583; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.583; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.584; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-clustering-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.584; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-clustering-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.585; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.585; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.585; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-07-01 07:24:01.585; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-07-01 07:24:01.586; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-langid-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.586; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-langid-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.596; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.597; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-velocity-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:01.597; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-velocity-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:07.205; [   ] org.eclipse.jetty.server.Server; jetty-8.1.10.v20130312
+INFO  - 2015-07-01 07:24:07.219; [   ] org.eclipse.jetty.deploy.providers.ScanningAppProvider; Deployment monitor C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts at interval 0
+INFO  - 2015-07-01 07:24:07.223; [   ] org.eclipse.jetty.deploy.DeploymentManager; Deployable added: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\contexts\solr-jetty-context.xml
+INFO  - 2015-07-01 07:24:08.219; [   ] org.eclipse.jetty.webapp.StandardDescriptorProcessor; NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+INFO  - 2015-07-01 07:24:08.269; [   ] org.apache.solr.servlet.SolrDispatchFilter; SolrDispatchFilter.init()WebAppClassLoader=1348478820@50602764
+INFO  - 2015-07-01 07:24:08.280; [   ] org.apache.solr.core.SolrResourceLoader; JNDI not configured for solr (NoInitialContextEx)
+INFO  - 2015-07-01 07:24:08.280; [   ] org.apache.solr.core.SolrResourceLoader; using system property solr.solr.home: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 07:24:08.281; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\'
+INFO  - 2015-07-01 07:24:08.380; [   ] org.apache.solr.core.SolrXmlConfig; Loading container configuration from C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\solr.xml
+INFO  - 2015-07-01 07:24:08.486; [   ] org.apache.solr.core.CorePropertiesLocator; Config-defined core root directory: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 07:24:08.509; [   ] org.apache.solr.core.CoreContainer; New CoreContainer 100630431
+INFO  - 2015-07-01 07:24:08.510; [   ] org.apache.solr.core.CoreContainer; Loading cores into CoreContainer [instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\]
+INFO  - 2015-07-01 07:24:08.510; [   ] org.apache.solr.core.CoreContainer; loading shared library: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib
+WARN  - 2015-07-01 07:24:08.511; [   ] org.apache.solr.core.SolrResourceLoader; Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\lib).
+INFO  - 2015-07-01 07:24:08.533; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting socketTimeout to: 600000
+INFO  - 2015-07-01 07:24:08.534; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting urlScheme to: null
+INFO  - 2015-07-01 07:24:08.539; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting connTimeout to: 60000
+INFO  - 2015-07-01 07:24:08.539; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnectionsPerHost to: 20
+INFO  - 2015-07-01 07:24:08.540; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxConnections to: 10000
+INFO  - 2015-07-01 07:24:08.540; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting corePoolSize to: 0
+INFO  - 2015-07-01 07:24:08.540; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maximumPoolSize to: 2147483647
+INFO  - 2015-07-01 07:24:08.540; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting maxThreadIdleTime to: 5
+INFO  - 2015-07-01 07:24:08.540; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting sizeOfQueue to: -1
+INFO  - 2015-07-01 07:24:08.541; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting fairnessPolicy to: false
+INFO  - 2015-07-01 07:24:08.541; [   ] org.apache.solr.handler.component.HttpShardHandlerFactory; Setting useRetries to: false
+INFO  - 2015-07-01 07:24:08.799; [   ] org.apache.solr.update.UpdateShardHandler; Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+INFO  - 2015-07-01 07:24:08.801; [   ] org.apache.solr.logging.LogWatcher; SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+INFO  - 2015-07-01 07:24:08.803; [   ] org.apache.solr.logging.LogWatcher; Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+INFO  - 2015-07-01 07:24:08.804; [   ] org.apache.solr.core.CoreContainer; Node Name: 
+INFO  - 2015-07-01 07:24:08.898; [   ] org.apache.solr.core.CorePropertiesLocator; Looking for core definitions underneath C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr
+INFO  - 2015-07-01 07:24:08.944; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=test, config=solrconfig.xml, instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test, loadOnStartup=true, absoluteInstDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2015-07-01 07:24:08.945; [   ] org.apache.solr.core.CorePropertiesLocator; Found core test in C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test\
+INFO  - 2015-07-01 07:24:08.945; [   ] org.apache.solr.core.CoreDescriptor; CORE DESCRIPTOR: {name=test1, config=solrconfig.xml, instanceDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1, loadOnStartup=true, absoluteInstDir=C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1\, schema=schema.xml, transient=false, dataDir=data\}
+INFO  - 2015-07-01 07:24:08.946; [   ] org.apache.solr.core.CorePropertiesLocator; Found core test1 in C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1\
+INFO  - 2015-07-01 07:24:08.947; [   ] org.apache.solr.core.CorePropertiesLocator; Found 2 core definitions
+INFO  - 2015-07-01 07:24:08.949; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test\'
+INFO  - 2015-07-01 07:24:08.949; [   ] org.apache.solr.core.SolrResourceLoader; new SolrResourceLoader for directory: 'C:\Users\sumit.nagpal\Desktop\solr-5.1.0\server\solr\test1\'
+INFO  - 2015-07-01 07:24:09.035; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : 0
+INFO  - 2015-07-01 07:24:09.040; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-07-01 07:24:09.035; [   ] org.apache.solr.core.SolrConfig; current version of requestparams : 0
+INFO  - 2015-07-01 07:24:09.044; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.045; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.045; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.048; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:09.049; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:09.049; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.050; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.053; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:09.053; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.054; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.055; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.056; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.057; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:09.058; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.059; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-07-01 07:24:09.059; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.060; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:09.061; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.059; [   ] org.apache.solr.core.SolrConfig; Adding specified lib dirs to ClassLoader
+INFO  - 2015-07-01 07:24:09.061; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.064; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.065; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.065; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.066; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.066; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.067; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.068; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.068; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.068; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:09.068; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:09.069; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.070; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.070; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.071; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-07-01 07:24:09.063; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-core-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.072; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/apache-mime4j-dom-0.7.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.073; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/aspectjrt-1.8.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.073; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcmail-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:09.074; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/bcprov-jdk15-1.45.jar' to classloader
+INFO  - 2015-07-01 07:24:09.075; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/boilerpipe-1.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.073; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-cell-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.075; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/commons-compress-1.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.077; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/fontbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:09.077; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/icu4j-54.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.077; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/isoparser-1.0.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.077; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/java-libpst-0.8.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.077; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.078; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.079; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.080; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:09.080; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:09.078; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jdom-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.081; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jempbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:09.081; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.082; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:09.082; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.082; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/jmatio-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.083; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/juniversalchardet-1.0.3.jar' to classloader
+INFO  - 2015-07-01 07:24:09.084; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-clustering-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.084; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/metadata-extractor-2.6.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.085; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/pdfbox-1.8.8.jar' to classloader
+INFO  - 2015-07-01 07:24:09.085; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.086; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.086; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-07-01 07:24:09.086; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.086; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-ooxml-schemas-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.087; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/poi-scratchpad-3.11.jar' to classloader
+INFO  - 2015-07-01 07:24:09.087; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-langid-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.087; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/rome-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.088; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tagsoup-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.088; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-core-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.088; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-07-01 07:24:09.088; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-java7-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.089; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.089; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-parsers-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.089; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.089; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/tika-xmp-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.090; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.090; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-core-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:09.090; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/vorbis-java-tika-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:09.091; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xercesImpl-2.9.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.091; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmlbeans-2.6.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.091; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-velocity-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.091; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xmpcore-5.1.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.108; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/extraction/lib/xz-1.5.jar' to classloader
+INFO  - 2015-07-01 07:24:09.110; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-cell-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.110; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/attributes-binder-1.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.110; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/carrot2-mini-3.9.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.111; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/hppc-0.5.2.jar' to classloader
+INFO  - 2015-07-01 07:24:09.111; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-core-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:09.111; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/jackson-mapper-asl-1.9.13.jar' to classloader
+INFO  - 2015-07-01 07:24:09.111; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-collections-1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.112; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/mahout-math-0.6.jar' to classloader
+INFO  - 2015-07-01 07:24:09.112; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/clustering/lib/simple-xml-2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.113; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-clustering-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.114; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/jsonic-1.2.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.114; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/langid/lib/langdetect-1.1-20120112.jar' to classloader
+INFO  - 2015-07-01 07:24:09.115; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-langid-5.1.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.115; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-beanutils-1.8.3.jar' to classloader
+INFO  - 2015-07-01 07:24:09.116; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/commons-collections-3.2.1.jar' to classloader
+INFO  - 2015-07-01 07:24:09.116; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-1.7.jar' to classloader
+INFO  - 2015-07-01 07:24:09.116; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/contrib/velocity/lib/velocity-tools-2.0.jar' to classloader
+INFO  - 2015-07-01 07:24:09.117; [   ] org.apache.solr.core.SolrResourceLoader; Adding 'file:/C:/Users/sumit.nagpal/Desktop/solr-5.1.0/dist/solr-velocity-5.1.0.jar' to classloader
